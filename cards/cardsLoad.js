@@ -1,0 +1,1 @@
+setTimeout(function () { !function () { let e = document, t = window; function n() { let e = document.createElement("script"); e.async = !0, e.src = "cards/cards.js"; let t = document.getElementsByTagName("script")[0]; t.parentNode.insertBefore(e, t) } "complete" == e.readyState ? n() : t.attachEvent ? t.attachEvent("onload", n) : t.addEventListener("load", n, !1) }() }, 800);
